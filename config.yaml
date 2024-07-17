@@ -1,0 +1,7 @@
+api:
+  url: https://api.twelvedata.com/time_series
+model:
+  time_interval_train: 24
+  prediction_interval: 2
+  epochs: 10
+  batch_size: 64

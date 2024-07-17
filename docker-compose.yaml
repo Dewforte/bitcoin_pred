@@ -1,0 +1,8 @@
+version: '3'
+services:
+  crypto-predictor:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
